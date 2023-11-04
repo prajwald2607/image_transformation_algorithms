@@ -3,7 +3,22 @@ import cv2
 import numpy as np
 
 # Streamlit setup
+#st.title("Image Transformations with Affine Transformations")
+
+st.markdown(
+    """
+    <style>
+    body {
+        background-image: linear-gradient(rgba(255, 165, 0, 0.5), rgba(0, 0, 128, 0.5));
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 st.title("Image Transformations with Affine Transformations")
+st.write("Name: Prajwal Deshmukh")
+st.write("PRN: 0120200484")
+
 
 # Upload an image
 st.header("Upload an image")
